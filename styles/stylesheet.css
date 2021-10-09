@@ -38,3 +38,17 @@ width: 40%;
 position: relative;
 left: 35%;
 }
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 500px;
+  length: 1000px;
+  border-style: double;
+  border-color: #80e5ff;
+  border-width: 5px;
+}
+.border {
+  border-style: groove;
+  border-color: inherit;
+}
