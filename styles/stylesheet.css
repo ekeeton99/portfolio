@@ -20,6 +20,7 @@ h2 {
   border-color: #80e5ff;
   border-width: 3px;
   padding: 3px;
+  text-align: center;
 }
 .important:hover {
   background-color: #ff99ff;
@@ -32,7 +33,7 @@ figcaption {
 .centered {
   text-align: center;
 }
-ul {
+.facts {
 text-align: left;
 width: 40%;
 position: relative;
@@ -43,12 +44,39 @@ left: 35%;
   margin-right: auto;
   text-align: center;
   width: 500px;
-  length: 1000px;
   border-style: double;
   border-color: #80e5ff;
   border-width: 5px;
+  padding: 5px;
 }
-.border {
-  border-style: groove;
-  border-color: inherit;
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3399ff;
+  border: 1px solid white;
+}
+.active {
+  background-color: #99ccff;
+}
+ul.navbar li {
+  float: left;
+}
+ul.navbar li a {
+  display: block;
+  color: #003366;
+  text-align: center;
+  padding: 14px 16px;
+}
+ul.navbar li a:hover {
+  background-color: #99ccff;
+}
+footer {
+  color: #003366;
+  position: fixed;
+  left: 5px;
+  right: 0;
+  bottom: 0;
 }
