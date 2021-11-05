@@ -1,0 +1,34 @@
+* > a {
+  text-decoration: none;
+}
+body:not(header, footer) {
+  font-family: 'Poiret One', cursive;
+}
+.navbar {
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+  background-color: lightgrey;
+  border: 1px solid white;
+}
+.navbar > li {
+  flex-direction: row;
+  list-style-type: none;
+  padding: 14px 16px;
+  display: block;
+}
+.home {
+  order: 1;
+  align-self: flex-end;
+}
+.active {
+  background-color: #99ccff;
+}
+footer {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+footer > * {
+  align-content: center;
+  font-family: 'Comfortaa', cursive;
+}
