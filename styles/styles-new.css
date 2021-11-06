@@ -38,17 +38,22 @@ h1 {
 .navbar li:hover {
   background-color: #cce6ff;
 }
-#float {
+.center {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   margin: 5px;
+  flex-flow: column wrap;
 }
 #content {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   margin: 0;
+}
+#portfolio {
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px;
 }
 #contact {
   display: flex;
