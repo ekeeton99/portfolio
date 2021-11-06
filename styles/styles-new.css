@@ -1,34 +1,82 @@
-* > a {
+* a {
   text-decoration: none;
+  color: inherit;
 }
 body:not(header, footer) {
   font-family: 'Poiret One', cursive;
 }
+h1 {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 3rem;
+  font-size: 48px;
+}
 .navbar {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   font-family: 'Comfortaa', cursive;
   background-color: lightgrey;
-  border: 1px solid white;
-}
-.navbar > li {
-  flex-direction: row;
-  list-style-type: none;
-  padding: 14px 16px;
-  display: block;
+  border: 3px solid #e6f2ff;
+  margin: 0;
+  padding: 0;
 }
 .home {
   order: 1;
-  align-self: flex-end;
+  margin-left: auto;
+}
+.navbar li {
+  list-style-type: none;
+  padding: 14px 16px;
+  color: #008ae6;
 }
 .active {
   background-color: #99ccff;
+}
+.navbar li:hover {
+  background-color: #cce6ff;
+}
+#float {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+#contact li {
+  list-style-type: none;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+figure img {
+  align-self: center;
+  border: 3px solid #e6f2ff;
+}
+aside ul {
+  padding: 0;
+  list-style: inside;
 }
 footer {
   background-color: grey;
   display: flex;
   justify-content: center;
-}
-footer > * {
-  align-content: center;
   font-family: 'Comfortaa', cursive;
+  border: 3px solid #e6f2ff;
 }
