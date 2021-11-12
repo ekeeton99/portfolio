@@ -50,7 +50,7 @@ h1 {
   flex-flow: row wrap;
   margin: 0;
 }
-#portfolio {
+.portfolio {
   display: flex;
   justify-content: flex-start;
   margin: 15px;
