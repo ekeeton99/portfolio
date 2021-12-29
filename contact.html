@@ -22,13 +22,54 @@
       </nav>
     </header>
 
-    <div id=contact>
-      <ul>
-        <li><a href="mailto:emmett.keeton@gmail.com"><i class="fas fa-envelope-square"></i> Email</a></li>
-        <li><a href="https://www.facebook.com/emmett.keeton"><i class="fab fa-facebook-square"></i> Facebook</a></li>
-        <li><a href="https://github.com/ekeeton99"><i class="fab fa-github-square"></i> Github</a></li>
-        <li><a href="https://www.linkedin.com/in/emmett-keeton-779347162/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-      </ul>
+    <div class="contact">
+      <h3><a href="https://github.com/ekeeton99"><i class="fab fa-github-square"></i> Github</a></h3>
+      <h3><a href="https://www.linkedin.com/in/emmett-keeton-779347162/"><i class="fab fa-linkedin"></i> LinkedIn</a></h3>
+
+      <h3>Send Me a Message</h3>
+      <form method="get">
+        <label>Name
+          <input type="text" name="name">
+        </label>
+
+        <label>Email
+          <input type="text" name="email">
+        </label>
+
+        <label>Phone Number
+          <input type="text" name="phoneNumber">
+        </label>
+
+        <fieldset class="button">
+          <legend>Preferred Method of Contact</legend>
+          <label>
+            <input type="radio" name="contactPref" value="email">
+            <span class="checkmark"></span>
+            Email
+          </label>
+
+          <label>
+            <input type="radio" name="contactPref" value="phone">
+            <span class="checkmark"></span>
+            Phone
+          </label>
+        </fieldset>
+
+        <label>Reason for Contact
+          <select name="contactReason">
+            <option value="">Please choose</option>
+            <option value="question">I have a question</option>
+            <option value="comment">I have a comment</option>
+            <option value="workOffer">I would like to work with you</option>
+          </select>
+        </label>
+
+        <label>Your Message
+          <textarea name="message" rows="8" cols="60"></textarea>
+        </label>
+
+        <input type="submit" value="Submit">
+      </form>
     </div>
 
     <footer>
